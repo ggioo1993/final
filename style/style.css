@@ -504,7 +504,6 @@ color: #ffffff;
         display: none;
     }
   }
-
   @media only screen and (max-width: 600px) {
     .gatamasheba{
         display: none;
@@ -549,7 +548,6 @@ color: #ffffff;
     .pic2, .pic3{
         display: none;
     }
-
     .pic1{
         width: 100%;
     }
