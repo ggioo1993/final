@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My final project for HTML CSS">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="favicon.ico">
+    <title>The Final Project</title>
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="index.html">Final Project</a>
+        </h1>
+        <nav id="nav"></nav>
+    </header>
+    <main>
+        <br><br>
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="img/airballon.jpg" alt="airballon"></div>
+            <div class="item"><img src="img/lake.jpg" alt="lake"></div>
+            <div class="item"><img src="img/forest.jpg" alt="forest"></div>
+            <div class="item"><img src="img/books.jpg" alt="books"></div>
+            <div class="item"><img src="img/hills.jpg" alt="hills"></div>
+            <div class="item"><img src="img/mist.jpg" alt="cloudmist"></div>
+            <div class="item"><img src="img/airballon.jpg" alt="airballon"></div>
+            <div class="item"><img src="img/lake.jpg" alt="lake"></div>
+            <div class="item"><img src="img/forest.jpg" alt="forest"></div>
+            <div class="item"><img src="img/books.jpg" alt="books"></div>
+            <div class="item"><img src="img/hills.jpg" alt="hills"></div>
+            <div class="item"><img src="img/mist.jpg" alt="cloudmist"></div>
+        </div>
+        <div class="social">
+            <div class="facebook">
+                <a target="_blank" rel="nofollow" href="https://www.facebook.com/profile.php?id=100082430274867"></a>
+            </div>
+            <div class="git">
+            <a target="_blank" href="https://github.com/ggioo1993" rel="nofollow"></a></div>
+            </div>
+            <div class="tours">
+            <article class="turebi tour1">
+            <div class="surr"></div>
+            <p class="txt1 tx1"><a href="#">შეიძინე</a> მთლიანი პაკეტი და<br>მოინახულე რაჭა</p>
+            </article>
+            <article class="turebi tour2">
+                <div class="surr sur2"></div>
+                <p class="txt1"><p class="txt1"><a href="#">შეიძინე</a> მთლიანი პაკეტი და<br>მოინახულე სვანეთი</p>
+                </article>
+                <article class="turebi tour3">
+                    <div class="surr sur3"></div><p class="txt1"><p class="txt1"><a href="#">შეიძინე</a> მთლიანი პაკეტი და<br>მოინახულე სამეგრელო</p>
+                    </article>
+                </div>
+                <div class="gatamasheba">
+                    <p class="gat">გამოიწერე სიახლეები<br>და ჩაერთე გათამაშებაში</p>
+                </div>
+                <form action="success.html" method="post" class="gamowera">
+                <input type="text" name="saxeli" id="saxeli" placeholder="სახელი" required>
+                <input type="text" name="email" id="email" placeholder="იმეილი" required>
+                <input type="submit" value="გამოწერა" class="submit">
+            </form>
+            <p class="sendmsg" onclick="showchatbox()">მოგვწერეთ შეტყობინება</p>
+            <p class="sendmsg2" onclick="showchatbox()"><i class="fa-regular fa-comment-dots"></i></p>
+            <div class="msgbox" id="msgbox">
+                <div class="msgboxheader">
+                    <p>
+                        მოგვწერეთ შეტყობინება
+                    </p>
+                    <p class="close" onclick="hidechatbox ()">
+                        &#x2715
+                    </p>
+                </div>
+                <div class="msgboxmain" id="msgboxx">
+                    <input type="text" name="firstname" id="firstname" placeholder="ჩაწერეთ თქვენი სახელი">
+                    <input type="text" name="email" id="email" placeholder="ჩაწერეთ თქვენი მეილი">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="ჩაწერეთ თქვენი შეტყობინება"></textarea>
+                    <p class="send" onclick="hidechatbox ()">
+                        გაგზავნა
+                    </p>
+                </div>
+            </div>
+    </main>
+    <footer>
+        <div class="flogo"><a href="index.html" class="fflogo"></a></div>
+        <nav id="navv"></nav>
+    </footer>
+    <script src="https://kit.fontawesome.com/74e8322264.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/scripts.js"></script>   
+    <script src="js/chat.js"></script>
+</body>
+</html>

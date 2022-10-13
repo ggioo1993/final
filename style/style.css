@@ -1,0 +1,556 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+header{
+    padding: 30px;
+    background-color: #313030;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+header h1{
+    width: 50px; height: 50px;
+    background-image: url(../img/logo.png);
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    background-position: center;
+    text-indent: -99999px;  
+    position: absolute; 
+    top: 20px;
+    left: 20px;
+}
+header h1 a{
+    width: 100px; 
+    height: 50px; 
+    display: block; 
+}
+header ul{
+    width: 32%; 
+    margin-left: 80px;
+}
+header ul a{
+    padding: 5px 10px; 
+    text-transform: uppercase;
+    color: #949393; 
+    font-size: 18px;
+}
+header ul li a:hover{
+color: #ffffff; 
+}
+.nav{
+    width: 40%;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item{
+    height: 174px;
+    overflow: hidden;
+    margin-top: 60px;
+}
+.social{
+    width: 50px; 
+    height: 100px;
+    background-repeat: no-repeat;
+    position: fixed;
+    top:300px;
+    left:10px;
+}
+.facebook a{
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.facebook{
+    width: 50px; height: 50%;
+    background-image: url(../img/fb.png);
+    background-size: 100%; 
+    overflow: hidden;
+}
+.facebook:hover{
+    background-image: url(../img/ff.png);
+    cursor: pointer;
+}
+.git{
+    width: 50px;
+    height: 50%;
+    background-image: url(../img/gb.png);
+    background-size: 100%; 
+    overflow: hidden;
+}
+.git:hover{
+    background-image: url(../img/gc.png);
+    cursor: pointer;
+}
+.git a{
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.owl-theme .owl-nav{
+    position: absolute;
+    top: 80px; 
+    left: 0;
+    width:   100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.owl-theme .owl-nav [class*=owl-]{
+    font-size: 70px !important;
+    color: #700e0e !important;
+}
+.owl-theme .owl-nav [class*=owl-]:hover{
+    background: rgba(0, 0, 0, 0);
+    color: #c42727!important;
+}
+.owl-carousel{
+    z-index: 0;
+    top:20px;
+}
+.flogo{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute; 
+    top:20px;
+    left: 20px;   
+}
+.fflogo{
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.tours{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 62%;
+    margin-left: 100px;
+}
+.turebi{
+    width: 30%;
+    height: 250px; 
+    background-color: #1dc58549;
+    margin-top: 100px; 
+}
+.surr{
+    width: 100%; 
+    height: 150px;
+    background-image: url(../img/racha.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.txt1{
+    font-size: 16px; 
+    text-align: center; 
+    color: #ffffff; 
+    padding-top: 10px;
+}
+.tx1{
+    padding-top: 20px;
+}
+.sur2{
+    background-image: url(../img/svaneti.jpg);
+}
+.sur3{
+    background-image: url(../img/samegrelo.jpg);
+}
+.turebi a{
+    color: #e40f0f;
+    font-size: 20px;
+}
+.gatamasheba{
+    width: 22%;
+    height: 80px;
+    background-color: #021010;
+    border-radius: 10px;
+    margin-left: 100px; 
+    margin-top: 100px; 
+    margin-bottom: 50px;
+}
+.gat{
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    background-color: #021010;
+    border-radius: 10px;
+}
+.gamowera{
+    width: 20%;
+    margin-left: 120px;
+    padding-bottom: 200px;
+}
+.gamowera input{
+    width: 100%;
+    height: 70px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 40px;
+    outline: none;
+}
+.gamowera input::placeholder{
+    font-size: 20px;
+    color: #000000;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.gamowera label{
+    font-size: 14px; 
+    font-weight: bold;
+}
+.gamowera input[type="submit"]{
+    background-color: #01AF8C;
+    margin-top: 50px;
+  }
+  .gamowera input[type="submit"]:hover{
+    background-color: #1fe0ba;
+  }
+  .submit{
+    width: 100%;
+    font-size: 20px;
+  }
+  .submit:hover{
+    cursor: pointer;
+  }
+  .sucs{
+    width: 32%; 
+    height: 110px;  
+    border: 1px solid #313030;
+    background-color: #313030;
+    position: absolute; 
+    top: 200px; 
+    left: 80px;
+    border-radius: 10px;
+  }
+  .warr{
+    font-size: 32px; 
+    color: #858585;
+    text-align: center; 
+    padding-top: 10px;
+  }
+  .dabr{
+    width: 16%; 
+    height: 70px; 
+    border: 1px solid #313030;
+    background-color: #313030;
+    border-radius: 10px;
+    position: absolute; 
+    top: 400px; 
+    left: 220px;
+  }
+  .dabr:hover{
+    background-color: #000000;
+  }
+  .dab{
+    padding: 10px;
+    font-size: 32px;
+    color: #858585;
+    text-align: center;
+    padding-top: 10px;
+  }
+.sendmsg{
+    width: 16%;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 14px;
+    position: fixed;
+    bottom: 100px; 
+    right: 10px;
+}
+.sendmsg2{
+    display: none;
+}
+.fa-comment-dots{
+    font-size: 50px;
+    position: fixed;
+    bottom: 100px; 
+    right: 10px;
+}
+.fa-comment-dots:hover{
+    cursor: pointer;
+}
+.sendmsg:hover{
+    background-color: #b4afaf;
+    color: #179240;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.msgbox{
+    width: 16%;
+    border: 2px solid #a4a4a4;
+    position: fixed;
+    bottom: 92px; 
+    right: 10px;
+    display: none;
+    background-color: #ffffff;
+    margin-bottom: 6px;
+}
+.msgboxheader{
+    padding:10px;
+    border-bottom: 2px solid #a4a4a4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.close{
+    padding: 6px;
+}
+.close:hover{
+    cursor: pointer;
+}
+.msgboxmain{
+    padding: 10px;
+}
+.msgboxmain input, .msgboxmain textarea{
+    width: 100%;
+    padding: 14px;
+    outline: none;
+    resize: none;
+    margin-bottom: 6px;
+}
+.send{
+    width: 100%;
+    padding: 14px;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 20px; 
+}
+.send:hover{
+    cursor: pointer;
+    color: #179240;
+    background-color: #b4afaf;
+    border-radius: 20px;
+}
+.stars{
+    width: 40%;
+    height: 200px;
+    background-image: url(../img/stars.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 120px; left: 500px;
+}
+.pstars{
+    width: 40%;
+    height: 200px;
+    position: absolute;
+    top: 340px;
+    left: 500px;
+    font-size: 16px;
+    color: #0f9964;
+    text-align: center;
+}
+.tdiv{
+    width: 18%;
+    height: 70px;
+    position: absolute;
+    top: 180px; 
+    left: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-mobile-screen-button{
+    font-size: 70px;
+    color: #45104d;
+}
+.abouttel{
+    font-size: 50px;
+    color: #45104d;
+}
+.mdiv{
+    width: 26%;
+    height: 70px;
+    position: absolute;
+    top: 280px; 
+    left: 146px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-envelope-circle-check{
+    font-size: 70px;
+    color: #45104d;
+}
+.aboutmail{
+    font-size: 50px;
+    color: #45104d;
+}
+.locdiv{
+    width: 36%;
+    height: 70px;
+    position: absolute;
+    top: 380px; 
+    left: 146px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+.fa-location-dot{
+    font-size: 70px;
+    color: #45104d;
+}
+.galdiv{
+    width: 60%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+.galpics{
+    width: 32%;
+    height: 300px;
+}
+.pic1{
+    background-image: url(../img/lakee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pic2{
+    background-image: url(../img/airballon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pic3{
+    background-image: url(../img/hills.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.galdiv2{
+    width: 60%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 450px;
+    left: 250px;
+}
+footer{
+    padding: 30px;
+    background-color: #313030;
+    width: 100%;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+}
+footer ul{
+    width: 32%; 
+    margin-left: 80px; 
+}
+footer ul a{
+    padding: 5px 10px;
+    text-transform: uppercase;
+    color: #949393;
+    font-size: 18px;
+}
+footer ul li a:hover{
+color: #ffffff; 
+}
+@media only screen and (max-width: 900px) {
+    .gatamasheba{
+        display: none;
+    }
+    .gamowera{
+        display: none;
+    }
+    body{
+        background-color: #775959;
+        background-image: none;
+    }
+    .tours{
+        width: 90%;
+        top: 400px;
+        left: -50px;
+        position: absolute;
+    }
+    .msgbox{
+        width: 24%;
+        z-index: 1;
+    }
+    .galdiv2, .galdiv{
+        left: 50px;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .pic3{
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .gatamasheba{
+        display: none;
+    }
+    .gamowera{
+        display: none;
+    }
+    body{
+        background-color: #775959;
+        background-image: none;
+    }
+    .tours{
+        width: 90%;
+        top: 400px;
+        left: 20px;
+    }
+    .tour1{
+        display: none;
+    }
+    .tour2{
+        display: none;
+    }
+    .tour3{
+        width: 60%;
+    }
+    .sendmsg{
+        display: none;
+    }
+    .sendmsg2{
+        display: block;
+    }
+    .msgbox{
+        width: 40%;
+    }
+    .galdiv{
+        left: 26px;
+        width: 90%;
+    }
+    .galdiv2{
+        display: none;
+    }
+    .pic2, .pic3{
+        display: none;
+    }
+
+    .pic1{
+        width: 100%;
+    }
+  }
